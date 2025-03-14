@@ -15,7 +15,7 @@ public class TriangleDrawer extends JPanel {
         super.paintComponent(g);
         g.setColor(Color.BLUE);
 
-        int x1 = (int) p1.getX() * 50 + 100;  // Scale and shift for visibility
+        int x1 = (int) p1.getX() * 50 + 100;  
         int y1 = 400 - (int) p1.getY() * 50;
         int x2 = (int) p2.getX() * 50 + 100;
         int y2 = 400 - (int) p2.getY() * 50;
